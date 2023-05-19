@@ -1,0 +1,96 @@
+@media screen and (max-width: 1040px) {
+    .mobile_header {
+        display: block;
+    }
+    .header {
+        display: none;
+    }
+    .crossWord {
+        height: auto;
+    }
+    .mobile_device{
+        display: block;
+    }
+    .second_footer_inp_textearea_mobile_device{
+        margin:30px auto;
+        width: 75vw;
+    }
+}
+@media screen and (max-width: 640px) {
+    .sociol ul li a {
+        display: none;
+    }
+    .crossWord {
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .crossWord .contant {
+        margin: auto;
+    }
+    .crossWord img {
+        margin-right: 0px;
+        margin-top: -21px;
+    }
+    .quiz {
+        height: 130px;
+    }
+    .quiz p::after {
+        width: 140px;
+        bottom: 37px;
+        left: 127px;
+    }
+    .famous_btn input {
+        width: 100%;
+    }
+    .Gulabi_Urdu {
+        height: auto;
+    }
+    .hindi_urdu_books_container_box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gustakh_kon_box{
+        flex-direction: column;
+    }
+    .gustakh_kon_left {
+        width: 100%;
+        }
+        .gustakh_kon_reight {
+            width: 100%;
+          }
+          .literature_container{
+            flex-wrap: wrap;
+          }
+          .literature_container_box {
+            height: 385px;
+          }
+          .literature_container_box img,.literature_container_box {
+            width: 420px;
+          }
+          .rekhta_app .apStripImg{
+            top: -42px;
+height: 110px;
+width: 171px;
+right: -13px;
+          }
+        .largest_collection{
+            font-size: 8px;
+        }
+        .largest_collection ul li a{
+            font-size: 9px;
+        }
+        .largest_collection ul li i{
+            margin: 0 4px;
+        }
+        .third_footer_sociol_icon{
+            gap: 10px;
+            height: 264px;
+        }
+        .last_footer{
+            height: 104px;
+            gap: 1px;
+        }
+        }
